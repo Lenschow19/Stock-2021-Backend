@@ -1,5 +1,4 @@
-export interface Stock {
-  id: string;
+export interface CreateStockDto {
   name: string;
   description: string;
   value: number;
